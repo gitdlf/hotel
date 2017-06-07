@@ -1,0 +1,6 @@
+开发设计模式之mvc模式：
+	M   model    模型层   【entity/dao/service】
+	V   view     视图层   【jsp/html…】
+	C   control  控制器   【servlet】
+优缺点：
+	每一层各司其职！ 更容易更换具体的实现，而对其他层代码影响较小！
