@@ -48,7 +48,7 @@
 <div id="StatusBar">
 	<!-- 链接 -->
     <div id="StatusBar_Links">
-		<a href="http://gz.itcast.cn" target="_blank">广州传智博客</a>，最专业的Java培训！
+		<a href="http://lfsenior.cn" target="_blank">凌风学长</a>，正义的伙伴！
     </div>
 	<!-- 右侧功能按钮 -->
     <div id="StatusBar_Right">
