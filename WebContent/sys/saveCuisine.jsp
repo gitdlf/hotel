@@ -1,4 +1,4 @@
-﻿
+﻿<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -24,8 +24,8 @@
 		<div id="TitleArea_Title_Content">
 			
 				
-					<img border="0" width="13" height="13" src="style/images/title_arrow.gif"/>  更新菜系
 				
+					<img border="0" width="13" height="13" src="style/images/title_arrow.gif"/>  添加菜系
 				
 			
 		</div>
@@ -51,8 +51,8 @@
 						<tr>
 							<td width="80px">菜系名称</td>
 							<td>
-								<input type="text" name="name" class="InputStyle" value="粤菜"/> *
-								<input type="hidden" name="cid" value="1" />
+								<input type="text" name="name" class="InputStyle" value=""/> *
+								<input type="hidden" name="cid" value="" />
 							</td>
 						</tr>
 					</table>
@@ -64,8 +64,8 @@
 		<div id="InputDetailBar">
 			
 				
-					 <input type="submit" value="修改" class="FunctionButtonInput">
 				
+					 <input type="submit" value="添加" class="FunctionButtonInput">
 				
 			
             <a href="javascript:history.go(-1);" class="FunctionButton">返回</a>
